@@ -1,0 +1,11 @@
+name = "umang-portfolio"
+type = "javascript"
+account_id = "YOUR_ACCOUNT_ID"
+workers_dev = true
+route = "https://umangghimire.com.np/*"
+zone_id = "YOUR_ZONE_ID"
+
+[env.production]
+name = "umang-portfolio-prod"
+route = "https://umangghimire.com.np/*"
+zone_id = "YOUR_ZONE_ID"
